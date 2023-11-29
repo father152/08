@@ -1,0 +1,53 @@
+.history h1,
+.photo h1,
+.contact h1 {
+  color: rgb(92, 218, 19);
+  font-size: 40px;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.history p,
+.photo p,
+.contact p {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: justify;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.pic {
+ text-align: center;
+  
+ 
+}
+.pic img {
+   width: 50%;
+
+  margin: 10px auto;
+  box-shadow: 10px 10px 10px rgb(179, 177, 177);
+}
+
+.button {
+  position:fixed;
+  left: 40px;
+  top: 440px;
+  }
+  .button button {
+     background-color: rgb(10, 95, 10);
+      
+border-radius: 20px;
+
+
+  }
+
+.button a {
+font-size: 20px;
+text-decoration: none;
+color: rgb(204, 238, 13);
+padding: 10px 20px;
+
+}

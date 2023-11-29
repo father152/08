@@ -1,0 +1,97 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  
+}
+header {
+  display: flex;
+  width: 100vw;
+  height: 80px;
+  background-color: rgb(70, 172, 138);
+  align-items: center;
+  justify-content: space-around;
+}
+.link {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: black;
+}
+.link:hover {
+  text-decoration: underline;
+  color: rgb(66, 66, 66);
+}
+footer {
+  display: flex;
+  width: 100vw;
+  height: 80px;
+  background-color: rgb(70, 172, 138);
+  align-items: center;
+  justify-content: space-around;
+}
+.middleside {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  
+}
+
+
+/* ================================================== */
+.leftside {
+  display: flex;
+  background-color: rgb(199, 207, 198);
+  width: 20%;
+}
+.leftside ul {
+  padding-left: 30px;
+}
+.leftside li {
+  font-size: 20px;
+  list-style: none;
+}
+.leftside li:hover {
+  text-decoration: underline;
+  color: rgb(51, 121, 97);
+}
+.link-l {
+  text-decoration: none;
+  color: rgb(51, 121, 97);
+}
+/* ============================================================ */
+
+.container {
+  display: flex;
+  background-color: rgb(179, 235, 172);
+  width: 60%;
+  padding: 20px;
+
+}
+.container h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.container p {
+  text-align: justify;
+  font-family: sans-serif;
+}
+/* ================================================================= */
+.rightside {
+  display: flex;
+  background-color: rgb(199, 207, 198);
+  width: 20%;
+}
+.rightside li {
+  font-size: 20px;
+  list-style: none;
+}
+.rightside li:hover {
+  text-decoration: underline;
+  color: rgb(51, 121, 97);
+}
+.link-r {
+  text-decoration: none;
+  color: rgb(51, 121, 97);
+}
